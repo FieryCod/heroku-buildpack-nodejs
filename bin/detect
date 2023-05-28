@@ -3,6 +3,7 @@
 
 [ "$BUILDPACK_XTRACE" ] && set -o xtrace
 
+echo "XDDDDDDDDDD"
 error() {
   local c="2,999 s/^/ !     /"
 	# send all of our output to stderr
