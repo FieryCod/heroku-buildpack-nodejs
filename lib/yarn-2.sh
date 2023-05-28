@@ -2,6 +2,7 @@
 
 YQ="$BP_DIR/lib/vendor/yq-$(get_os)"
 
+echo "YARN_2 XDD"
 detect_yarn_2() {
   local uses_yarn="$1"
   local build_dir="$2"
