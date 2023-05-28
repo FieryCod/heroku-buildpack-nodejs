@@ -26,6 +26,7 @@ install_yarn() {
   local version=${2:-1.22.x}
   local number url code resolve_result
 
+echo 'XDDDD'
   if [[ -n "$YARN_BINARY_URL" ]]; then
     url="$YARN_BINARY_URL"
     echo "Downloading and installing yarn from $url"
